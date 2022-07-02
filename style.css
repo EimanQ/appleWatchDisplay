@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.apple-background {
+    background-image: url(./image/backgorund.svg);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.time-text {
+    font: 400 30px 'K2D';
+    color: #FFFFFF;
+    left: 450px;
+    position: absolute;
+}
+
+.apple-circles {
+    background-image: url(./image/Circles.svg);
+    background-repeat: no-repeat;
+    width: 550.49px;
+    height: 574.49px;
+    margin: auto;
+}
+
+.date-text {
+    font: 400 20px 'K2D';
+    color: #FFFFFF;
+    left: 250px;
+    position: absolute;
+    top: 605px;
+}
+
+.apple-line {
+    width: 230px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 1px;
+    position: absolute;
+    top: 645px;
+    left: 185px;
+}
