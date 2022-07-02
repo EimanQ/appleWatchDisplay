@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-.appleBackGround {
+.apple-background {
     background-image: url(./image/backgorund.svg);
     background-repeat: no-repeat;
     width: 600px;
@@ -14,16 +14,14 @@
     position: relative;
 }
 
-.timeText {
-    font-family: 'K2D', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
+.time-text {
+    font: 400 30px 'K2D';
     color: #FFFFFF;
-    margin-left: 490px;
+    left: 450px;
     position: absolute;
 }
 
-.appleCircles {
+.apple-circles {
     background-image: url(./image/Circles.svg);
     background-repeat: no-repeat;
     width: 550.49px;
@@ -31,17 +29,15 @@
     margin: auto;
 }
 
-.dateText {
-    font-family: 'K2D', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+.date-text {
+    font: 400 20px 'K2D';
     color: #FFFFFF;
     left: 250px;
     position: absolute;
     top: 605px;
 }
 
-.appleLine {
+.apple-line {
     width: 230px;
     height: 10px;
     background: #FFFFFF;

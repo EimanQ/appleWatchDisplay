@@ -5,15 +5,14 @@ const dynamicDateInClock = () => {
         year = dateNow.getFullYear();
 
     if (hours < 10) {
-        hours = `0` + hours;
+        hours = `0 + ${hours}`;
     };
     if (minutes < 10) {
-        minutes = `0` + minutes;
+        minutes = `0 + ${minutes}`;
     }
-    const fullTime = hours + `:` + minutes;
-    const yearToQuery = `since.` + year;
-    document.querySelector(`.timeText`).innerHTML = fullTime;
-    document.querySelector(`.dateText`).innerHTML = yearToQuery;
-    setTimeout("dynamicDateInClock()", 1000);
+    const fullTime = `${hours} : ${minutes}`;
+    const yearToQuery = `since.  ${year}`;
+    document.querySelector(`.time-text`).innerHTML = fullTime;
+    document.querySelector(`.date-text`).innerHTML = yearToQuery;
 };
 dynamicDateInClock();
